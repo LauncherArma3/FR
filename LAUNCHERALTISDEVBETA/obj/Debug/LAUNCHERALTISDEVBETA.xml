@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LAUNCHERALTISDEVBETA
+</name>
+</assembly>
+<members>
+<member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources._4z2m5qg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.aim_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.aim_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.amazon_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.amazon_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.blog_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.blog_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.buzz_yahoo_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.buzz_yahoo_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.delicious_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.delicious_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.devianart_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.deviantart_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.digg_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.digg_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.digg02_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.digg02_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.dribbble_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.dribbble_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.facebook_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.facebook_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.maxresdefau">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.nitrado">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.twitter_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.twitter_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.up_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.up_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.youtube_active">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LAUNCHERALTISDEVBETA.My.Resources.Resources.youtube_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:LAUNCHERALTISDEVBETA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

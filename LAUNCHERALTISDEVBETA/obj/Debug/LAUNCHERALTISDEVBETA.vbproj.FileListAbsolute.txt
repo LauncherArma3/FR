@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.vbproj.GenerateResource.Cache
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.vbprojResolveAssemblyReference.cache
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe.config
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.pdb
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.xml
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.credits.resources
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Form1.resources
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Form2.resources
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Resources.resources
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.exe
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
+C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe.config
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.exe
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb
+=======
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\LAUNCHERALTISDEVBETA.exe.config
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\LAUNCHERALTISDEVBETA.exe
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\LAUNCHERALTISDEVBETA.pdb
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\bin\Debug\LAUNCHERALTISDEVBETA.xml
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.Form1.resources
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.Resources.resources
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.vbproj.GenerateResource.Cache
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.exe
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.xml
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.pdb
+C:\Users\Renildo\documents\visual studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.Form2.resources
+C:\Users\Renildo\Desktop\arquivos\1424906778038946_(DDK33) Board Index Face v2.0.5\Launcher Arma 3 by MrDarkSkil\LAUNCHERALTISDEVBETA\bin\Debug\LAUNCHERALTISDEVBETA.exe.config
+C:\Users\Renildo\Desktop\arquivos\1424906778038946_(DDK33) Board Index Face v2.0.5\Launcher Arma 3 by MrDarkSkil\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.exe
+C:\Users\Renildo\Desktop\arquivos\1424906778038946_(DDK33) Board Index Face v2.0.5\Launcher Arma 3 by MrDarkSkil\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.xml
+C:\Users\Renildo\Desktop\arquivos\1424906778038946_(DDK33) Board Index Face v2.0.5\Launcher Arma 3 by MrDarkSkil\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.pdb
+>>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
