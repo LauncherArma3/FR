@@ -12,6 +12,15 @@ C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUN
 C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
 C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb
 C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe.config
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.pdb
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.xml
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.vbprojResolveAssemblyReference.cache
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.credits.resources
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Form1.resources
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Form2.resources
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.Resources.resources
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\LAUNCHERALTISDEVBETA.vbproj.GenerateResource.Cache
 C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.exe
 C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
 C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb

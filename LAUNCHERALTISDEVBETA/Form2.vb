@@ -121,7 +121,7 @@ Public Class Form2
 
     Private Sub PositronButton8_Click(sender As Object, e As EventArgs) Handles credits.Click
         Me.Hide()
-        credits.ShowDialog() 'Crédit ne pas changer SVP !
+        credits.Show() 'Crédit ne pas changer SVP !
     End Sub
 
     Private Sub updatemods_DoWork(sender As Object, e As DoWorkEventArgs) Handles updatemods.DoWork 'Verifie si il y a une mise à jour des mods
@@ -317,10 +317,6 @@ Public Class Form2
 
     End Sub
 
-    Private Sub PositronButton4_Click(sender As Object, e As EventArgs) Handles PositronButton4.Click, attlauncher.Click
-        DownloadUpdateLauncher.RunWorkerAsync()
-    End Sub
-
     Private Sub PositronButton5_Click(sender As Object, e As EventArgs) Handles entraserver.Click
         'Bouton Lancer Arma 3
         If My.Computer.FileSystem.FileExists(donwlodmodsbr & "basepack.txt") Then
@@ -435,5 +431,9 @@ Public Class Form2
 
     Private Sub Form2Load_DoWork(sender As Object, e As DoWorkEventArgs) Handles Form2Load.DoWork
 
+    End Sub
+
+    Private Sub attlauncher_Click(sender As Object, e As EventArgs) Handles attlauncher.Click
+        DownloadUpdateLauncher.RunWorkerAsync()
     End Sub
 End Class
