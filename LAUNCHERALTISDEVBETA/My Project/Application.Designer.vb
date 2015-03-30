@@ -32,11 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-<<<<<<< HEAD
             Me.MainForm = Global.AltisDEV.Form1
-=======
-            Me.MainForm = Global.LAUNCHERALTISDEVBETA.Form1
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         End Sub
     End Class
 End Namespace

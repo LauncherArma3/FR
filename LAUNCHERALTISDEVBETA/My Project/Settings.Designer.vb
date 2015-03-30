@@ -15,20 +15,12 @@ Option Explicit On
 Namespace My
 
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(), _
-<<<<<<< HEAD
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0"), _
-=======
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0"), _
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)> _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
 
-<<<<<<< HEAD
         Private Shared defaultInstance As MySettings = CType(Global.System.Configuration.ApplicationSettingsBase.Synchronized(New MySettings()), MySettings)
-=======
-        Private Shared defaultInstance As MySettings = CType(Global.System.Configuration.ApplicationSettingsBase.Synchronized(New MySettings), MySettings)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 
 #Region "My.Settings Auto-Save Functionality"
 #If _MyType = "WindowsForms" Then
@@ -49,7 +41,6 @@ Namespace My
             Get
 
 #If _MyType = "WindowsForms" Then
-<<<<<<< HEAD
                 If Not addedHandler Then
                     SyncLock addedHandlerLockObject
                         If Not addedHandler Then
@@ -58,16 +49,6 @@ Namespace My
                         End If
                     End SyncLock
                 End If
-=======
-                   If Not addedHandler Then
-                        SyncLock addedHandlerLockObject
-                            If Not addedHandler Then
-                                AddHandler My.Application.Shutdown, AddressOf AutoSaveSettings
-                                addedHandler = True
-                            End If
-                        End SyncLock
-                    End If
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 #End If
                 Return defaultInstance
             End Get
@@ -76,7 +57,6 @@ Namespace My
 End Namespace
 
 Namespace My
-<<<<<<< HEAD
 
     <Global.Microsoft.VisualBasic.HideModuleNameAttribute(), _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
@@ -87,18 +67,6 @@ Namespace My
         Friend ReadOnly Property Settings() As Global.AltisDEV.My.MySettings
             Get
                 Return Global.AltisDEV.My.MySettings.Default
-=======
-    
-    <Global.Microsoft.VisualBasic.HideModuleNameAttribute(),  _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>  _
-    Friend Module MySettingsProperty
-        
-        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.LAUNCHERALTISDEVBETA.My.MySettings
-            Get
-                Return Global.LAUNCHERALTISDEVBETA.My.MySettings.Default
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
             End Get
         End Property
     End Module

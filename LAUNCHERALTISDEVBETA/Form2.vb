@@ -16,11 +16,7 @@ Public Class Form2
     Dim facebook As String = "https://www.facebook.com/pages/Altisdev-French-Website/1548888018673436"
     Dim twitter As String = "https://twitter.com/Altisdev"
     Dim youtube As String = "https://www.youtube.com/renildomarcio"
-<<<<<<< HEAD
     Dim ipserveur As String = "37.187.149.179:2302" 'L'ip de votre serveur arma 3
-=======
-    Dim ipserveur As String = "5.62.98.200:2303" 'L'ip de votre serveur arma 3
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
     Dim servpassword As String = "none" 'Le mods de passe de votre serveur arma 3 ( si vous n'en avez pas laissé " none " )
     Dim teamspeak As String = "teamspeak1.mtxserv.fr" 'L'ip de votre TeamSpeak (sans port !)
     Dim TSport As String = "10030" 'Le port de votre TS si besoin. ( Si vous n'avez pas de port pour votre TS mettez " none " ex:    Dim TSport = "none"  )
@@ -46,11 +42,7 @@ Public Class Form2
     Dim dlauncher As String = Application.StartupPath & "\" 'Ne pas changer :D
     Dim fichier As String
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-<<<<<<< HEAD
         PictureBox1.ImageLocation = "http://cache.www.gametracker.com/server_info/" & ipserveur & "/b_350_20_692108_381007_FFFFFF_000000.png"
-=======
-        PictureBox1.ImageLocation = "http://cache.www.gametracker.com/server_info/37.187.149.179:2302/b_350_20_692108_381007_FFFFFF_000000.png"
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 
         If My.Computer.FileSystem.FileExists(dlauncher & "UP.exe") Then
             My.Computer.FileSystem.DeleteFile(dlauncher & "UP.exe")
@@ -63,14 +55,14 @@ Public Class Form2
         End If
         PositronTheme1.Text = "Launcher " & servername
 
-        PositronButton2.Text = "Chargement..."
-        PositronLabel2.Text = "Version du launcher: " & Application.ProductVersion
+        downloadmods.Text = "Chargement..."
+        versao.Text = "Version du launcher: " & Application.ProductVersion
         updatemods.RunWorkerAsync() ' On vois si il n'y a pas de mise à jour des mods
         My.Computer.FileSystem.CreateDirectory(appdata) 'On crée un dossier pour y placer tout ce don le launcher a besoin
-        PositronTextBox1.Text = "Identifié en tant que :  " & user  ' Un truc pas utile :D
+        user_log.Text = "Identifié en tant que :  " & user  ' Un truc pas utile :D
         If My.Computer.FileSystem.FileExists(appdata & "destination.a3") Then ' On verifie si la destination à deja été choisi
             destination = My.Computer.FileSystem.ReadAllText(appdata & "destination.a3")
-            PositronLabel3.Text = "Destination d'Arma3: "" " & destination & " """
+            destino.Text = "Destination d'Arma3: "" " & destination & " """
             If My.Computer.FileSystem.FileExists(destination & "arma3.exe") Then
             Else
                 MsgBox("La destination d'Arma3 n'est pas valide !")
@@ -85,8 +77,8 @@ Public Class Form2
                 Else
                     MsgBox("La destination choisi n'est pas valide !")
                 End If
-                PositronLabel3.Text = "Destination d'Arma3: "" " & destination & " """
-                PositronButton2.Enabled = True
+                destino.Text = "Destination d'Arma3: "" " & destination & " """
+                downloadmods.Enabled = True
             End If
         End If
 
@@ -116,24 +108,20 @@ Public Class Form2
         Form2Load.RunWorkerAsync()
     End Sub
 
-    Private Sub PositronButton1_Click(sender As Object, e As EventArgs) Handles PositronButton1.Click
+    Private Sub PositronButton1_Click(sender As Object, e As EventArgs) Handles registroarma3.Click
         FolderBrowserDialog1.ShowDialog()
         destination = FolderBrowserDialog1.SelectedPath & "\"
         My.Computer.FileSystem.WriteAllText(appdata & "destination.a3", destination, False)
-        PositronLabel3.Text = "Destination d'Arma3: "" " & destination & " """
+        destino.Text = "Destination d'Arma3: "" " & destination & " """
         If My.Computer.FileSystem.FileExists(destination & "arma3.exe") Then
         Else
             MsgBox("La destination choisi n'est pas valide !")
         End If
     End Sub
 
-    Private Sub PositronButton8_Click(sender As Object, e As EventArgs) Handles PositronButton8.Click
-<<<<<<< HEAD
+    Private Sub PositronButton8_Click(sender As Object, e As EventArgs) Handles credits.Click
         Me.Hide()
         credits.ShowDialog() 'Crédit ne pas changer SVP !
-=======
-        MsgBox("Crédits :" & vbNewLine & vbNewLine & "Launcher AltisDEV conçu par RenildoMarcio ( Renildo Marcio) pour http://altisdev.com" & vbNewLine & vbNewLine & "Thème créer par RenildoMarcio" & vbNewLine & "Remerciment à MrDarkSkil", MsgBoxStyle.Information, "Crédits") 'Crédit ne pas changer SVP !
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
     End Sub
 
     Private Sub updatemods_DoWork(sender As Object, e As DoWorkEventArgs) Handles updatemods.DoWork 'Verifie si il y a une mise à jour des mods
@@ -183,13 +171,13 @@ Public Class Form2
         Message.RunWorkerAsync() 'Lance ce qu'il faut pour afficher les news
     End Sub
 
-    Private Sub PositronButton3_Click(sender As Object, e As EventArgs) Handles PositronButton3.Click
-        If PositronButton2.Text = "Chargement..." Then
+    Private Sub PositronButton3_Click(sender As Object, e As EventArgs) Handles attmods.Click
+        If downloadmods.Text = "Chargement..." Then
             MsgBox("Veuillez patienter, une action est déjà en cours..." & vbNewLine)
         Else
 
-            If PositronButton2.Enabled = False Then
-                PositronButton2.Enabled = True
+            If downloadmods.Enabled = False Then
+                downloadmods.Enabled = True
             End If
             If My.Computer.FileSystem.FileExists(donwlodmodsbr & "basepack.txt") Then
 
@@ -215,13 +203,13 @@ Public Class Form2
                     'On montre ce qui est utile
                     PositronProgressBar1.Visible = True
                     PositronProgressBar2.Visible = True
-                    PositronLabel4.Visible = True
-                    PositronLabel5.Visible = True
-                    PositronLabel6.Visible = True
+                    ft.Visible = True
+                    nft.Visible = True
+                    fr.Visible = True
                     'On bloque les bouton inutiles
-                    PositronButton2.Enabled = False
-                    PositronButton3.Enabled = False
-                    PositronButton4.Enabled = False
+                    downloadmods.Enabled = False
+                    attmods.Enabled = False
+                    'PositronButton4.Enabled = False
 
                     While sr.Peek <> -1
                         ligne = sr.ReadLine()
@@ -235,7 +223,7 @@ Public Class Form2
                         Client.DownloadFileAsync(New Uri(website & dmods & "/" & ligne), destination & "@" & mods & "\addons\" & ligne)
 
                     End While
-                    PositronLabel6.Text = "Mods total à télécharger: " & number
+                    fr.Text = "Mods total à télécharger: " & number
 
                     If list = "" Then
                     Else
@@ -248,7 +236,7 @@ Public Class Form2
         End If
     End Sub
 
-    Private Sub PositronButton2_Click(sender As Object, e As EventArgs) Handles PositronButton2.Click
+    Private Sub PositronButton2_Click(sender As Object, e As EventArgs) Handles downloadmods.Click
         If My.Computer.FileSystem.FileExists(donwlodmodsbr & "basepack.txt") Then
 
             If My.Computer.FileSystem.FileExists(appdata & "destination.a3") Then
@@ -270,13 +258,13 @@ Public Class Form2
                 'On montre ce qui est utile
                 PositronProgressBar1.Visible = True
                 PositronProgressBar2.Visible = True
-                PositronLabel4.Visible = True
-                PositronLabel5.Visible = True
-                PositronLabel6.Visible = True
+                ft.Visible = True
+                nft.Visible = True
+                fr.Visible = True
                 'On bloque les bouton inutiles
-                PositronButton2.Enabled = False
-                PositronButton3.Enabled = False
-                PositronButton4.Enabled = False
+                downloadmods.Enabled = False
+                attmods.Enabled = False
+                'PositronButton4.Enabled = False
 
 
                 While sr.Peek <> -1
@@ -291,7 +279,7 @@ Public Class Form2
                     Client.DownloadFileAsync(New Uri(website & dmods & "/" & ligne), destination & "@" & mods & "\addons\" & ligne)
 
                 End While
-                PositronLabel6.Text = "Mods total à télécharger: " & number
+                fr.Text = "Mods total à télécharger: " & number
             End If
 
         End If
@@ -310,30 +298,30 @@ Public Class Form2
     Private Sub client_DownloadCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.AsyncCompletedEventArgs)
         ' Ne pas toucher ! 
         nbr_ligne += 1
-        PositronLabel4.Text = "Mod(s) téléchargé: " & nbr_ligne - 3
-        PositronLabel5.Text = "Mod(s) restant(s): " & number - nbr_ligne + 3
+        ft.Text = "Mod(s) téléchargé: " & nbr_ligne - 3
+        nft.Text = "Mod(s) restant(s): " & number - nbr_ligne + 3
 
         If nbr_ligne - 3 > 1 Then
             PositronProgressBar2.Value = (nbr_ligne - 3) * 100 / number
         End If
         If number - nbr_ligne + 3 = 0 Then
-            PositronButton3.Enabled = True
-            PositronButton4.Enabled = True
+            attmods.Enabled = True
+            'PositronButton4.Enabled = True
         End If
         If number = 0 Then
-            PositronButton2.Text = "Télécharger tout les mods"
-            PositronButton2.Enabled = True
+            downloadmods.Text = "Télécharger tout les mods"
+            downloadmods.Enabled = True
         End If
 
 
 
     End Sub
 
-    Private Sub PositronButton4_Click(sender As Object, e As EventArgs) Handles PositronButton4.Click
+    Private Sub PositronButton4_Click(sender As Object, e As EventArgs) Handles PositronButton4.Click, attlauncher.Click
         DownloadUpdateLauncher.RunWorkerAsync()
     End Sub
 
-    Private Sub PositronButton5_Click(sender As Object, e As EventArgs) Handles PositronButton5.Click
+    Private Sub PositronButton5_Click(sender As Object, e As EventArgs) Handles entraserver.Click
         'Bouton Lancer Arma 3
         If My.Computer.FileSystem.FileExists(donwlodmodsbr & "basepack.txt") Then
             If PositronProgressBar2.Visible = False Then
@@ -366,12 +354,12 @@ Public Class Form2
         End If
     End Sub
 
-    Private Sub PositronButton7_Click(sender As Object, e As EventArgs) Handles PositronButton7.Click
+    Private Sub PositronButton7_Click(sender As Object, e As EventArgs) Handles siteweb.Click
         'Bouton Forum
         Process.Start(forum)
     End Sub
 
-    Private Sub PositronButton6_Click(sender As Object, e As EventArgs) Handles PositronButton6.Click
+    Private Sub PositronButton6_Click(sender As Object, e As EventArgs) Handles ts3.Click
         'Bouton TeamSpeak
         If TSport = "none" Then
             Process.Start("ts3server://" & teamspeak)
@@ -417,11 +405,7 @@ Public Class Form2
             My.Computer.FileSystem.WriteAllText(dlauncher & "site.txt", website & servername & ".exe", False)
             My.Computer.Network.DownloadFile(website & "UP.exe", dlauncher & "UP.exe")
             Process.Start(dlauncher & "UP.exe")
-<<<<<<< HEAD
             Application.Exit()
-=======
-            Me.Close()
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         End If
     End Sub
 
@@ -440,7 +424,6 @@ Public Class Form2
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
         Process.Start(forum)
     End Sub
-<<<<<<< HEAD
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Process.Start(forum)
@@ -453,6 +436,4 @@ Public Class Form2
     Private Sub Form2Load_DoWork(sender As Object, e As DoWorkEventArgs) Handles Form2Load.DoWork
 
     End Sub
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 End Class

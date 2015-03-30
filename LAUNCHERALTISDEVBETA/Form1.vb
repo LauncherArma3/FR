@@ -13,12 +13,8 @@ Public Class Form1
     Dim website = "http://altisliferpg.livehost.fr/" 'Le lien du FTP ( La ou sont tout les fichier requie , update.txt etc ... )
     Dim servername = "AltisDEV" 'Le nom de votre serveur
     Dim mods = "AltisDEV" 'Le nom que votre pack mods sans le "@" ( ex:"CBA" ce qui donnera " @CBA " dans le dossier d'arma 3)
-<<<<<<< HEAD
     Dim VALOR As String
     Dim VALOR2 As String
-=======
-
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
     Dim facebook As String = "https://www.facebook.com/pages/Altisdev-French-Website/1548888018673436"
     Dim twitter As String = "https://twitter.com/Altisdev"
     Dim youtube As String = "https://www.youtube.com/renildomarcio"
@@ -37,7 +33,6 @@ Public Class Form1
     Dim number As String = 0 'Ne pas changer :D
     Dim dlauncher As String = Application.StartupPath & "\" 'Ne pas changer :D
     Dim fichier As String
-<<<<<<< HEAD
     Dim vmods = "vmods.txt" 'Le fichier ou est inscript dedans la dernière version des mods
     Dim dmods As String = "mods" 'Le nom du dossier ou ce trouve les mods
     Dim user As String = Environment.UserName 'Detecte le nom d'utilisateur du PC
@@ -60,8 +55,6 @@ Public Class Form1
             PositronTextBox1.Text = (VALOR)
         End If
     End Sub
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 
     Private Function FValidaCampos() As Boolean
 
@@ -81,22 +74,18 @@ Public Class Form1
 
     Function LoginIPB_By_RenildoMarcio(ByVal user As String, ByVal pass As String) As Boolean
         Dim logincookie As CookieContainer
-<<<<<<< HEAD
-        Dim postData As String = "auth_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&ips_username=" & user & "&ips_password=" & pass & "&rememberMe=1"
-=======
         Dim postData As String = "auth_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&ips_username=" & user & "&ips_password=" & pass & "&rememberMe=1"
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 
         Dim tempCookies As New CookieContainer
         Dim encoding As New UTF8Encoding
         Dim byteData As Byte() = encoding.GetBytes(postData)
 
-        Dim postReq As HttpWebRequest = DirectCast(WebRequest.Create("http://website.com/index.php?app=core&module=global&section=login&do=process"), HttpWebRequest)
+        Dim postReq As HttpWebRequest = DirectCast(WebRequest.Create("http://site.com/index.php?app=core&module=global&section=login&do=process"), HttpWebRequest)
         postReq.Method = "POST"
         postReq.KeepAlive = True
         postReq.CookieContainer = tempCookies
         postReq.ContentType = "application/x-www-form-urlencoded"
-        postReq.Referer = "http://website.com/index.php?app=core&module=global&section=login&do=process"
+        postReq.Referer = "http://site.com/index.php?app=core&module=global&section=login&do=process"
         postReq.UserAgent = "Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.2.3) Gecko/20100401 Firefox/4.0 (.NET CLR 3.5.30729)"
         postReq.ContentLength = byteData.Length
 
@@ -118,7 +107,6 @@ Public Class Form1
     End Function
 
     Private Sub PositronButton1_Click(sender As Object, e As EventArgs) Handles PositronButton1.Click
-<<<<<<< HEAD
         Application.Exit()
     End Sub
 
@@ -135,28 +123,31 @@ Public Class Form1
         End If
     End Sub
     Private Sub client_ProgressChanged(ByVal sender As Object, ByVal e As DownloadProgressChangedEventArgs)
-
+        'Ne pas toucher
         Dim bytesIn As Double = Double.Parse(e.BytesReceived.ToString())
 
         Dim totalBytes As Double = Double.Parse(e.TotalBytesToReceive.ToString())
 
         Dim percentage As Double = bytesIn / totalBytes * 100
-
+        'PositronProgressBar1.Value = Int32.Parse(Math.Truncate(percentage).ToString())
     End Sub
 
     Private Sub client_DownloadCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.AsyncCompletedEventArgs)
-
+        ' Ne pas toucher ! 
         nbr_ligne += 1
-
+        'PositronLabel4.Text = "Mod(s) téléchargé: " & nbr_ligne - 3
+        'ositronLabel5.Text = "Mod(s) restant(s): " & number - nbr_ligne + 3
 
         If nbr_ligne - 3 > 1 Then
-
+            'PositronProgressBar2.Value = (nbr_ligne - 3) * 100 / number
         End If
         If number - nbr_ligne + 3 = 0 Then
-
+            'PositronButton3.Enabled = True
+            'PositronButton4.Enabled = True
         End If
         If number = 0 Then
-
+            'PositronButton2.Text = "Télécharger tout les mods"
+            'PositronButton2.Enabled = True
         End If
 
 
@@ -174,14 +165,6 @@ Public Class Form1
         If My.Computer.FileSystem.FileExists(dlauncher & "site.txt") Then
             My.Computer.FileSystem.DeleteFile(dlauncher & "site.txt")
         End If
-=======
-        Close()
-    End Sub
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Message.RunWorkerAsync() 'Lance ce qu'il faut pour afficher les news 
-
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         If My.Computer.FileSystem.FileExists(appdata & news) Then
             My.Computer.FileSystem.DeleteFile(appdata & news)
         End If
@@ -219,7 +202,6 @@ Public Class Form1
         Catch ex As Exception
             MessageBox.Show("Error reading file." & ex.Message)
         End Try
-<<<<<<< HEAD
         My.Computer.FileSystem.CreateDirectory("C:/Launcher/")
 
         If My.Computer.FileSystem.FileExists("C:/Launcher/listpack.txt") Then
@@ -246,17 +228,11 @@ Public Class Form1
     End Sub
 
 
-=======
-
-    End Sub
-
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Process.Start("https://server.nitrado.net/fre/ArmA-3-Gameserver-mieten?pk_campaign=FRE_AltisDev")
     End Sub
 
     Private Sub PositronButton2_Click(sender As Object, e As EventArgs) Handles PositronButton2.Click
-<<<<<<< HEAD
         If (PositronTextBox1.Text <> Nothing) Then
             SaveSetting(My.Application.Info.AssemblyName, "CONFIG", "ULTIMO_VALOR", PositronTextBox1.Text)
         Else
@@ -268,11 +244,6 @@ Public Class Form1
         If FValidaCampos() = False Then Exit Sub
         If LoginIPB_By_RenildoMarcio(PositronTextBox1.Text, PositronTextBox2.Text) = True Then
             NotifyIcon1.ShowBalloonTip(500, "Bienvenue " & PositronTextBox1.Text & " à Launcher Arma3!", "Développé par RenildoMarcio", ToolTipIcon.Info)
-=======
-        If FValidaCampos() = False Then Exit Sub
-        If LoginIPB_By_RenildoMarcio(PositronTextBox1.Text, PositronTextBox2.Text) = True Then
-            MsgBox("Bienvenue " & PositronTextBox1.Text, MsgBoxStyle.Information, "Launcher AltisDEV")
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
             Form2.Show()
             Me.Hide()
         Else : MsgBox("Connexion ou mot de passe incorrect ")
@@ -280,19 +251,11 @@ Public Class Form1
     End Sub
 
     Private Sub PositronButton4_Click(sender As Object, e As EventArgs) Handles PositronButton4.Click
-<<<<<<< HEAD
-        Process.Start("http://website.com/index.php?app=core&module=global&section=register")
+        Process.Start("http://site.com/index.php?app=core&module=global&section=register")
     End Sub
 
     Private Sub PositronButton3_Click(sender As Object, e As EventArgs) Handles PositronButton3.Click
-        Process.Start("http://website.com/index.php?app=core&module=global&section=lostpass")
-=======
-        Process.Start("http://altisdev.com/index.php?app=core&module=global&section=register")
-    End Sub
-
-    Private Sub PositronButton3_Click(sender As Object, e As EventArgs) Handles PositronButton3.Click
-        Process.Start("http://altisdev.com/index.php?app=core&module=global&section=lostpass")
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
+        Process.Start("http://site.com/index.php?app=core&module=global&section=lostpass")
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
@@ -310,12 +273,12 @@ Public Class Form1
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
         Process.Start(forum)
     End Sub
-<<<<<<< HEAD
 
     Private Sub NotifyIcon1_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
         
     End Sub
     Private Sub DownloadUpdateLauncher_DoWork(sender As Object, e As DoWorkEventArgs) Handles DownloadUpdateLauncher.DoWork
+        'Télécharge le nouveau launcher
         If My.Computer.FileSystem.FileExists(dlauncher & "UP.exe") Then
             My.Computer.FileSystem.DeleteFile(dlauncher & "UP.exe")
         Else
@@ -337,19 +300,17 @@ Public Class Form1
 
         Dim file3 = My.Computer.FileSystem.ReadAllText(appdata & vlauncher)
         Dim file4 = Application.ProductVersion
-
+        'On verifie si les deux fichiers corresponde
         If file3 = file4 Then
         Else
 
             If MsgBox("Une mise à jour du launcher est disponible." & vbNewLine & "Voulez vous effectuer cette mise à jour ?" & vbNewLine & vbNewLine & "Acienne version du launcher: " & file4 & vbNewLine & "Nouvelle version du launcher: " & file3, MsgBoxStyle.YesNo + MsgBoxStyle.Exclamation) = vbYes Then
-
+                ' On fait la mise à jour du launcher!
                 DownloadUpdateLauncher.RunWorkerAsync()
             End If
 
         End If
-
+        'Message.RunWorkerAsync() 'Lance ce qu'il faut pour afficher les news
     End Sub
 
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 End Class

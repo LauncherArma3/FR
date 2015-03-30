@@ -2619,13 +2619,10 @@ Class PositronTextBox
         MyBase.OnResize(e)
     End Sub
 
-<<<<<<< HEAD
     Sub Clear()
         'Throw New NotImplementedException
     End Sub
 
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 End Class
 
 Class PositronProgressBar

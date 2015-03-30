@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-<<<<<<< HEAD
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -39,33 +38,14 @@ Partial Class Form1
         Me.PositronTextBox2 = New AltisDEV.PositronTextBox()
         Me.PositronTextBox1 = New AltisDEV.PositronTextBox()
         Me.PositronButton1 = New AltisDEV.PositronButton()
-=======
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PositronButton4 = New LAUNCHERALTISDEVBETA.PositronButton()
-        Me.PositronButton3 = New LAUNCHERALTISDEVBETA.PositronButton()
-        Me.PositronButton2 = New LAUNCHERALTISDEVBETA.PositronButton()
-        Me.PositronGroupBox2 = New LAUNCHERALTISDEVBETA.PositronGroupBox()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.PositronGroupBox1 = New LAUNCHERALTISDEVBETA.PositronGroupBox()
-        Me.PositronLabel2 = New LAUNCHERALTISDEVBETA.PositronLabel()
-        Me.PositronLabel1 = New LAUNCHERALTISDEVBETA.PositronLabel()
-        Me.PositronTextBox2 = New LAUNCHERALTISDEVBETA.PositronTextBox()
-        Me.PositronTextBox1 = New LAUNCHERALTISDEVBETA.PositronTextBox()
-        Me.PositronButton1 = New LAUNCHERALTISDEVBETA.PositronButton()
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-<<<<<<< HEAD
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.DownloadUpdateLauncher = New System.ComponentModel.BackgroundWorker()
         Me.updatelauncher = New System.ComponentModel.BackgroundWorker()
         Me.Form1Load = New System.ComponentModel.BackgroundWorker()
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PositronGroupBox2.SuspendLayout()
         Me.PositronGroupBox1.SuspendLayout()
@@ -79,11 +59,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-<<<<<<< HEAD
         Me.PictureBox1.Image = Global.AltisDEV.My.Resources.Resources.nitrado
-=======
-        Me.PictureBox1.Image = Global.LAUNCHERALTISDEVBETA.My.Resources.Resources.nitrado
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox1.Location = New System.Drawing.Point(648, 379)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(48, 48)
@@ -166,25 +142,16 @@ Partial Class Form1
         '
         Me.ListView1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
-<<<<<<< HEAD
         Me.ListView1.Location = New System.Drawing.Point(8, 25)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(535, 134)
-=======
-        Me.ListView1.Location = New System.Drawing.Point(8, 30)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(535, 125)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
         'PositronGroupBox1
         '
         Me.PositronGroupBox1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
-<<<<<<< HEAD
         Me.PositronGroupBox1.Controls.Add(Me.PositronCheckBox1)
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PositronGroupBox1.Controls.Add(Me.PositronLabel2)
         Me.PositronGroupBox1.Controls.Add(Me.PositronLabel1)
         Me.PositronGroupBox1.Controls.Add(Me.PositronTextBox2)
@@ -205,7 +172,6 @@ Partial Class Form1
         Me.PositronGroupBox1.TransparencyKey = System.Drawing.Color.Empty
         Me.PositronGroupBox1.Transparent = False
         '
-<<<<<<< HEAD
         'PositronCheckBox1
         '
         Me.PositronCheckBox1.BackColor = System.Drawing.Color.Gainsboro
@@ -221,19 +187,13 @@ Partial Class Form1
         Me.PositronCheckBox1.Text = "Se souvenir de moi"
         Me.PositronCheckBox1.Transparent = False
         '
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         'PositronLabel2
         '
         Me.PositronLabel2.AutoSize = True
         Me.PositronLabel2.BackColor = System.Drawing.Color.Transparent
         Me.PositronLabel2.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.PositronLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(100, Byte), Integer))
-<<<<<<< HEAD
         Me.PositronLabel2.Location = New System.Drawing.Point(10, 66)
-=======
-        Me.PositronLabel2.Location = New System.Drawing.Point(10, 82)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PositronLabel2.Name = "PositronLabel2"
         Me.PositronLabel2.Size = New System.Drawing.Size(87, 13)
         Me.PositronLabel2.TabIndex = 3
@@ -245,11 +205,7 @@ Partial Class Form1
         Me.PositronLabel1.BackColor = System.Drawing.Color.Transparent
         Me.PositronLabel1.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.PositronLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(100, Byte), Integer))
-<<<<<<< HEAD
         Me.PositronLabel1.Location = New System.Drawing.Point(28, 33)
-=======
-        Me.PositronLabel1.Location = New System.Drawing.Point(28, 52)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PositronLabel1.Name = "PositronLabel1"
         Me.PositronLabel1.Size = New System.Drawing.Size(69, 13)
         Me.PositronLabel1.TabIndex = 2
@@ -260,11 +216,7 @@ Partial Class Form1
         Me.PositronTextBox2.Customization = "0tLS/8jIyP+Wlpb/"
         Me.PositronTextBox2.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.PositronTextBox2.Image = Nothing
-<<<<<<< HEAD
         Me.PositronTextBox2.Location = New System.Drawing.Point(100, 59)
-=======
-        Me.PositronTextBox2.Location = New System.Drawing.Point(100, 71)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PositronTextBox2.MaxLength = 32767
         Me.PositronTextBox2.Multiline = False
         Me.PositronTextBox2.Name = "PositronTextBox2"
@@ -281,11 +233,7 @@ Partial Class Form1
         Me.PositronTextBox1.Customization = "0tLS/8jIyP+Wlpb/"
         Me.PositronTextBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.PositronTextBox1.Image = Nothing
-<<<<<<< HEAD
         Me.PositronTextBox1.Location = New System.Drawing.Point(100, 29)
-=======
-        Me.PositronTextBox1.Location = New System.Drawing.Point(100, 41)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PositronTextBox1.MaxLength = 32767
         Me.PositronTextBox1.Multiline = False
         Me.PositronTextBox1.Name = "PositronTextBox1"
@@ -315,11 +263,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-<<<<<<< HEAD
         Me.PictureBox2.Image = Global.AltisDEV.My.Resources.Resources.facebook_active
-=======
-        Me.PictureBox2.Image = Global.LAUNCHERALTISDEVBETA.My.Resources.Resources.facebook_active
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox2.Location = New System.Drawing.Point(664, 98)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
@@ -331,11 +275,7 @@ Partial Class Form1
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-<<<<<<< HEAD
         Me.PictureBox3.Image = Global.AltisDEV.My.Resources.Resources.twitter_active
-=======
-        Me.PictureBox3.Image = Global.LAUNCHERALTISDEVBETA.My.Resources.Resources.twitter_active
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox3.Location = New System.Drawing.Point(664, 139)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(32, 32)
@@ -347,11 +287,7 @@ Partial Class Form1
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-<<<<<<< HEAD
         Me.PictureBox4.Image = Global.AltisDEV.My.Resources.Resources.youtube_active
-=======
-        Me.PictureBox4.Image = Global.LAUNCHERALTISDEVBETA.My.Resources.Resources.youtube_active
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox4.Location = New System.Drawing.Point(664, 180)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(32, 32)
@@ -363,11 +299,7 @@ Partial Class Form1
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-<<<<<<< HEAD
         Me.PictureBox5.Image = Global.AltisDEV.My.Resources.Resources.blog_active
-=======
-        Me.PictureBox5.Image = Global.LAUNCHERALTISDEVBETA.My.Resources.Resources.blog_active
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         Me.PictureBox5.Location = New System.Drawing.Point(664, 218)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(32, 32)
@@ -375,7 +307,6 @@ Partial Class Form1
         Me.PictureBox5.TabIndex = 12
         Me.PictureBox5.TabStop = False
         '
-<<<<<<< HEAD
         'NotifyIcon1
         '
         Me.NotifyIcon1.BalloonTipText = "Bem vindo!"
@@ -390,8 +321,6 @@ Partial Class Form1
         'updatelauncher
         '
         '
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -429,7 +358,6 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
-<<<<<<< HEAD
     Friend WithEvents PositronButton1 As AltisDEV.PositronButton
     Friend WithEvents PositronGroupBox1 As AltisDEV.PositronGroupBox
     Friend WithEvents PositronGroupBox2 As AltisDEV.PositronGroupBox
@@ -440,18 +368,6 @@ Partial Class Form1
     Friend WithEvents PositronButton2 As AltisDEV.PositronButton
     Friend WithEvents PositronButton3 As AltisDEV.PositronButton
     Friend WithEvents PositronButton4 As AltisDEV.PositronButton
-=======
-    Friend WithEvents PositronButton1 As LAUNCHERALTISDEVBETA.PositronButton
-    Friend WithEvents PositronGroupBox1 As LAUNCHERALTISDEVBETA.PositronGroupBox
-    Friend WithEvents PositronGroupBox2 As LAUNCHERALTISDEVBETA.PositronGroupBox
-    Friend WithEvents PositronLabel2 As LAUNCHERALTISDEVBETA.PositronLabel
-    Friend WithEvents PositronLabel1 As LAUNCHERALTISDEVBETA.PositronLabel
-    Friend WithEvents PositronTextBox2 As LAUNCHERALTISDEVBETA.PositronTextBox
-    Friend WithEvents PositronTextBox1 As LAUNCHERALTISDEVBETA.PositronTextBox
-    Friend WithEvents PositronButton2 As LAUNCHERALTISDEVBETA.PositronButton
-    Friend WithEvents PositronButton3 As LAUNCHERALTISDEVBETA.PositronButton
-    Friend WithEvents PositronButton4 As LAUNCHERALTISDEVBETA.PositronButton
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
@@ -459,13 +375,10 @@ Partial Class Form1
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-<<<<<<< HEAD
     Friend WithEvents PositronCheckBox1 As AltisDEV.PositronCheckBox
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents DownloadUpdateLauncher As System.ComponentModel.BackgroundWorker
     Friend WithEvents updatelauncher As System.ComponentModel.BackgroundWorker
     Friend WithEvents Form1Load As System.ComponentModel.BackgroundWorker
-=======
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 
 End Class

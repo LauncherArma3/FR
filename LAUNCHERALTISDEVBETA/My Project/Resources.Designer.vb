@@ -39,11 +39,7 @@ Namespace My.Resources
         Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-<<<<<<< HEAD
                     Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("AltisDEV.Resources", GetType(Resources).Assembly)
-=======
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("LAUNCHERALTISDEVBETA.Resources", GetType(Resources).Assembly)
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
                     resourceMan = temp
                 End If
                 Return resourceMan

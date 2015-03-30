@@ -8,19 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<<<<<<< HEAD
 <Assembly: AssemblyTitle("Launcher Arma 3 AltisDEV")> 
 <Assembly: AssemblyDescription("Launcher Arma 3")> 
 <Assembly: AssemblyCompany("AltisDEV.com")> 
 <Assembly: AssemblyProduct("Launcher Arma 3 AltisDEV")> 
 <Assembly: AssemblyCopyright("Copyright ©  2015 AltisDEV.com")> 
-=======
-<Assembly: AssemblyTitle("LAUNCHERALTISDEVBETA")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("LAUNCHERALTISDEVBETA")> 
-<Assembly: AssemblyCopyright("Copyright ©  2015")> 
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -39,10 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<<<<<<< HEAD
 <Assembly: AssemblyVersion("1.0.0.1")> 
 <Assembly: AssemblyFileVersion("1.0.0.1")> 
-=======
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
->>>>>>> parent of 7b705d2... Revert "Revert "Revert "LauncherArma3FR"""
