@@ -11,3 +11,7 @@ C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUN
 C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.exe
 C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
 C:\Users\Renildo\Documents\Visual Studio 2013\Projects\LAUNCHERALTISDEVBETA\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\bin\Debug\AltisDEV.exe.config
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.exe
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.xml
+C:\Users\Renildo\Documents\GitHub\FR\LAUNCHERALTISDEVBETA\obj\Debug\AltisDEV.pdb
